@@ -36,7 +36,7 @@
   id: GSecPosterEdge
   name: "На острие!"
   suffix: GSec
-  description: "Уже более 100 лет ЧВК «Gorlex Securities LLC» следует в ногу со временем, используя передовые средства защиты и обороны!"
+  description: "Более века лет ЧВК «Gorlex Securities LLC» следует в ногу со временем, используя передовые средства защиты и обороны!"
   components:
   - type: Sprite
     sprite: _Horizon/_Fractions/GSec/Structures/Wallmounts/posters.rsi

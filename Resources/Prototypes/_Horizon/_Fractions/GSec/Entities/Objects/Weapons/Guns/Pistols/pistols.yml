@@ -2,7 +2,7 @@
   name: GX Блэкуотер
   parent: [BaseWeaponPistol, BaseC3Contraband]
   id: WeaponPistolGSecBlackWater
-  description: Пистолет с загаточной историей, обладает ужасной репутацией «Оружия военных преступлений». Не имеет серийной маркировкой. Дорогой, но надёжный.
+  description: Пистолет с загадочной историей, обладает ужасной репутацией «Оружия военных преступлений». Не имеет серийной маркировки. Дорогой, но надёжный.
   suffix: AnCo, GSec
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
   id: WeaponPistolGSecNorthStar
   name: GXHP Нордстар
   suffix: GSec, Пистолет
-  description: Первый экземпляр возникла как результат пьянки мастеров из «Gorlex Steel Works». Комично сложная конструкция, комично высокая отдача, штучно собирается для тех, кто хочет выделяться.
+  description: Первый экземпляр возник как результат пьянки мастеров из «Gorlex Steel Works». Комично сложная конструкция, комично высокая отдача, штучно собирается для тех, кто хочет выделяться.
   components:
   - type: Sprite
     sprite: _Horizon/_Fractions/GSec/Objects/Weapons/Guns/gsec-northstar.rsi

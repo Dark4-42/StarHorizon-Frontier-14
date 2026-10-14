@@ -3,7 +3,7 @@
   id: PDAGSec
   suffix: GSec
   name: КПК Горлекс
-  description: Неубиваемый металл-полимерный кирпич, наполненный электроникой. На задней крышке расположена гравировка «Gorlex Securities LLC».
+  description: Неубиваемый металл-композитный кирпич, наполненный электроникой. На задней крышке расположена гравировка «Gorlex Securities LLC».
   components:
   - type: Sprite
     sprite: _Horizon/_Fractions/GSec/Objects/Devices/pda.rsi

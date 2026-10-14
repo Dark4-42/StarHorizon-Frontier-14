@@ -2127,7 +2127,7 @@
 - type: listing
   id: GSecClothingOuterHardsuitGSecOfficer
   name: "Офицерский скафандр Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
-  description: "Усиленный скафандр горлекса для использования в лобовых столкновениях. Собственность ЧВК «Gorlex Securities LLC»."
+  description: "Усиленный скафандр Горлекс для использования в лобовых столкновениях. Собственность ЧВК «Gorlex Securities LLC»."
   productEntity: ClothingOuterHardsuitGSecOfficer
   cost:
     Speso: 89200
@@ -2147,7 +2147,7 @@
 - type: listing
   id: GSecClothingEyesHudGSec
   name: "Военный визор Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
-  description: "Визор с системой распознавания «свой-чужой». Собственность ЧВК «Gorlex Securities LLC»."
+  description: "Визор со встроенной системой распознавания «свой-чужой». Собственность ЧВК «Gorlex Securities LLC»."
   productEntity: ClothingEyesHudGSec
   cost:
     Speso: 5400
@@ -2157,7 +2157,7 @@
 - type: listing
   id: GSecClothingEyesHudGSecMedical
   name: "Медицинский визор Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
-  description: "Визор с системой распознавания «свой-чужой». Собственность ЧВК «Gorlex Securities LLC»."
+  description: "Визор со встроенной системой распознавания «свой-чужой». Собственность ЧВК «Gorlex Securities LLC»."
   productEntity: ClothingEyesHudGSecMedical
   cost:
     Speso: 7400
@@ -2167,7 +2167,7 @@
 - type: listing
   id: GSecClothingEyesHudGSecSpecial
   name: "Военный визор Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
-  description: "Визор с системой распознавания для особых операций. Собственность ЧВК «Gorlex Securities LLC»."
+  description: "Визор со встроенной системой распознавания для особых операций. Собственность ЧВК «Gorlex Securities LLC»."
   productEntity: ClothingEyesHudGSecSpecial
   cost:
     Speso: 7800
@@ -2198,7 +2198,7 @@
   id: GSecGSecVendingClothing
   name: "ОдеждоМат Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
   description: "Вендор с одежой ЧВК «Gorlex Securities LLC», прямо с завода. Не для гражданского использования."
-  productEntity: GSecGSecVendingClothing
+  productEntity: GSecVendingClothing
   cost:
     Speso: 55700
   categories:
@@ -2277,10 +2277,10 @@
 - type: listing
   id: GSecCrateGSecSuperSurplusBundle
   name: "ящик суперприпасов Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
-  description: "Содержит случайное снаряжение на 100 тысяч кредитов. «Всё, что не пригодилось нам»."
+  description: "Содержит случайное снаряжение на 80 тысяч кредитов. «Всё, что не пригодилось нам»."
   productEntity: CrateGSecSuperSurplusBundle
   cost:
-    Speso: 64000
+    Speso: 60000
   categories:
   - GSecUplinkOther
 
@@ -2387,7 +2387,7 @@
 - type: listing
   id: GSecCrateGSecIDBundle
   name: "Набор ID карт Горлекс (ТОЛЬКО ДЛЯ ПЕРСОНАЛА)"
-  description: "Резерв карт аунтентификации, на случай непредвиденных остоятельств."
+  description: "Резерв карт аунтентификации, на случай непредвиденных осбтоятельств."
   productEntity: CrateGSecIDBundle
   cost:
     Speso: 12000

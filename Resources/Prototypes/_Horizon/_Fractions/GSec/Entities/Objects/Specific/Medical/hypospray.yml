@@ -1,12 +1,12 @@
 - type: entity
   name: гипоспрей Горлекс
   parent: [BaseItem, BaseGSecContraband]
-  description: "Новейшая разработка Cybersun, использует редкую технологию ввода медикоментов, является обсалютно оригинальной и изготавливается штучно для её партнёров ."
+  description: "Новейшая разработка Cybersun Industries, использующая неинвазивный метод введения медикоментов, изготавливается штучно. «Юридически это не то, о чем вы подумали» ."
   id: GSecHypo
   suffix: GSec
   components:
   - type: Sprite
-    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medcial/hypo.rsi
+    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medical/hypo.rsi
     layers:
       - state: hypo
         map: ["enum.SolutionContainerLayers.Base"]
@@ -14,11 +14,11 @@
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: Item
-    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medcial/hypo.rsi
+    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medical/hypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
-        maxVol: 30
+        maxVol: 25
   - type: RefillableSolution
     solution: hypospray
   - type: ExaminableSolution

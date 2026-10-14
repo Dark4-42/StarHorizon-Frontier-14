@@ -19,5 +19,5 @@
 - type: Tag
   id: MagazineNorthStarGSec
 
-#- type: Tag
-#  id: ShuttleGSecDestinationCoordinates
+- type: Tag
+  id: ShuttleGSecDestinationCoordinates

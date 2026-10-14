@@ -83,6 +83,7 @@
 - type: entity
   parent: [AirlockExternal, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockExternalGSecLocked
+  description: Он открывается, он закрывается, он может раздавить вас, а за ним лишь космос.
   suffix: External, GSec, Locked
   components:
   - type: ContainerFill
@@ -94,6 +95,7 @@
 - type: entity
   parent: [AirlockExternalGlass, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockExternalGlassGSecLocked
+  description: Он открывается, он закрывается, он может раздавить вас, а за ним лишь космос.
   suffix: External, Glass, GSec, Locked
   components:
   - type: ContainerFill

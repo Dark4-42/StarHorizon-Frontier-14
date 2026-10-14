@@ -7,7 +7,7 @@
   equipment:
     outerClothing: ClothingOuterHardsuitGSecOfficer
     pocket2: CigPackGSec
-#    pocket: CoordinatesDiskGSec
+    pocket: CoordinatesDiskGSec
     eyes: ClothingEyesHudGSecSpecial
 
 

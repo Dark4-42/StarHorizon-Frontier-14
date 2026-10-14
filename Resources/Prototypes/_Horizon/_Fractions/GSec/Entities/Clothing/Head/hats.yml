@@ -24,6 +24,7 @@
   parent: ClothingHeadHatBeretGSec
   id: ClothingHeadHatBeretMedicGSec
   name: берет санитара Горлекс
+  description: Уставной элемент одежды медиков и санитаров ЧВК «Gorlex Securities LLC». Носи его с честью.
   suffix: GSec
   components:
   - type: Sprite

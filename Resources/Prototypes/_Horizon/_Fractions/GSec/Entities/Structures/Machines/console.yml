@@ -121,28 +121,28 @@
         whitelist:
           components:
           - ShuttleDestinationCoordinates
-#          - ShuttleGSecDestinationCoordinates
+          - ShuttleGSecDestinationCoordinates
   - type: AnCoFactionAccess
     allowedFactions:
     - FactionGSec
     deniedMessage: "gsec-faction-access-denied"
 
-#- type: entity
-#  parent: CoordinatesDisk
-#  id: CoordinatesDiskGSec
-#  name: диск с данными
-#  suffix: GSec, Disk, НЕ МАППИТЬ
-#  categories: [DoNotMap]
-#  description: Стариный диск с неизвестными данными. Кто вообще пользуется дисководами?
-#  components:
-#  - type: Sprite
-#    sprite: Objects/Misc/cd.rsi
-#    layers:
-#    - state: icon
-#      color: "#37373e"
-#  - type: ShuttleDestinationCoordinates
-#  - type: AutoLinkCoordinatesDisk
-#    targetStationId: #GSecOutpost
-#  - type: Tag
-#    tags:
-#    - ShuttleGSecDestinationCoordinates
+- type: entity
+  parent: CoordinatesDisk
+  id: CoordinatesDiskGSec
+  name: диск с данными
+  suffix: GSec, Disk, НЕ МАППИТЬ
+  categories: [DoNotMap]
+  description: Стариный диск с неизвестными данными. Кто вообще пользуется дисководами?
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/cd.rsi
+    layers:
+    - state: icon
+      color: "#37373e"
+  - type: ShuttleDestinationCoordinates
+  - type: AutoLinkCoordinatesDisk
+    targetStationId: GSecTaipan
+  - type: Tag
+    tags:
+    - ShuttleGSecDestinationCoordinates

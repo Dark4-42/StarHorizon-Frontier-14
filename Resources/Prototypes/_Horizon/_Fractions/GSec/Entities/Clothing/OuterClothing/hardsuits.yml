@@ -33,7 +33,7 @@
   id: ClothingOuterHardsuitGSec
   suffix: GSec
   name: скафандр Горлекс
-  description: Боевой скафандр, долговечен и прост в в ремонте. Собственность "Gorlex Securities LLC".
+  description: Боевой скафандр, долговечен и прост в ремонте. Собственность "Gorlex Securities LLC".
   components:
   - type: Sprite
     sprite: _Horizon/_Fractions/GSec/Clothing/OuterClothing/Hardsuits/basic.rsi
@@ -120,7 +120,7 @@
   id: ClothingOuterHardsuitGSecOfficer
   name: скафандр офицера Горлекс
   suffix: GSec
-  description: Усиленный скафандр горлекса для использования в лобовых столкновениях.
+  description: Усиленный скафандр Горлекс для использования в лобовых столкновениях.
   components:
   - type: Sprite
     sprite: _Horizon/_Fractions/GSec/Clothing/OuterClothing/Hardsuits/officer.rsi

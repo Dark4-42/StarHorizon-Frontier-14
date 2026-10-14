@@ -16,7 +16,7 @@
 
 - type: entity
   suffix: GSec
-  description: Стандартный комбинезон Горлекса. Соткан из кевлара и изолирующего филлера.
+  description: Стандартный комбинезон «Gorlex Securities LLC». Соткан из кевлара и изолирующего филлера.
   name: комбинезон Горлекс
   parent: [ClothingUniformBase]
   id: SuitGSec
@@ -68,7 +68,7 @@
 
 - type: entity
   suffix: GSec
-  description: Комбинезон специалиста Горлекса. Оснащен дополнительной изоляцией.
+  description: Комбинезон специалистов «Gorlex Securities LLC». Оснащен дополнительной изоляцией и передним корманом.
   name: комбинезон техника Горлекс
   parent: [ClothingUniformBase, BaseGSecContraband, ClothingOuterStorageBase]
   id: SuitGSecTech
@@ -94,7 +94,7 @@
 
 - type: entity
   suffix: GSec
-  description: Комбинезон специалиста Горлекса. Оснащен дополнительной изоляцией.
+  description: Комбинезон медиков «Gorlex Securities LLC». Оснащен дополнительной изоляцией и передним карманом.
   name: комбинезон санитара Горлекс
   parent: [ClothingUniformBase, BaseGSecContraband, ClothingOuterStorageBase]
   id: SuitGSecMedic
@@ -117,7 +117,7 @@
 
 - type: entity
   suffix: GSec
-  description: Комбинезон рекрута Горлекса. Обеспечивает минимальную защиту груди и торса.
+  description: Комбинезон рекрута «Gorlex Securities LLC». Обеспечивает повышенную защиту груди и торса.
   name: комбинезон ректрута Горлекс
   parent: [ClothingUniformBase, BaseGSecContraband]
   id: SuitGSecRecruit
@@ -141,7 +141,7 @@
 
 - type: entity
   suffix: GSec
-  description: Комбинезон Горлекс, модифицированный для повышения мобильности. Удобный и тактильно приятный, а ещё хорошо горит.
+  description: Комбинезон «Gorlex Securities LLC», модифицированный для повышения мобильности. Удобный и тактильно приятный, а ещё хорошо горит.
   name: облегченный комбинезон Горлекс
   parent: [SuitGSec, BaseGSecContraband]
   id: SuitGSecSleevless
@@ -169,7 +169,7 @@
 
 - type: entity
   suffix: GSec
-  description: Комбинезон Горлекс, модифицированный для повышения мобильности. Содержит только самое необходимое.
+  description: Комбинезон «Gorlex Securities LLC», модифицированный для повышения мобильности. Содержит только самое необходимое.
   name: штаны Горлекс
   parent: [SuitGSec, BaseGSecContraband]
   id: SuitGSecTopless

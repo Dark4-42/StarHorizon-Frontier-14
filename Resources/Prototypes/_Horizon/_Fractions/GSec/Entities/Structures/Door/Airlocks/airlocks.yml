@@ -2,6 +2,7 @@
   parent: AirlockSecurity # if you get syndie door somehow it counts as sec
   id: AirlockGSec
   name: шлюз Горлекс
+  description: Он открывается, он закрывается, и он может вас раздавить.
   suffix: GSec
   components:
   - type: Sprite
@@ -38,7 +39,8 @@
   parent: AirlockSecurityGlass # see standard
   id: AirlockGSecGlass
   name: стеклянный шлюз Горлекс
-  suffix: GSec
+  description: Он открывается, он закрывается, и он может вас раздавить.
+  suffix: GSec, Стеклянный
   components:
   - type: Sprite
     sprite: _Horizon/_Fractions/GSec/Structures/Doors/Airlocks/Glass/gsec.rsi
