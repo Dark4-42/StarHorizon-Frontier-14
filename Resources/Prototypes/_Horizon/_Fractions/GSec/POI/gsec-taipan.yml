@@ -50,7 +50,7 @@
   mapPath: /Maps/_Horizon/_Fraction/GSec/POI/gsec-taipan.yml
   minPlayers: 0
   stations:
-    SindiOutpost:
+    GSecTaipan:
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
@@ -69,4 +69,4 @@
             GSecTech: [ 2, 2 ]
         - type: StationDeadDropHintExempt
         - type: BindToStationVariationPassExemption
-        - type: NoMailStation # Horizon: Disable mail for Syndicate
+        - type: NoMailStation

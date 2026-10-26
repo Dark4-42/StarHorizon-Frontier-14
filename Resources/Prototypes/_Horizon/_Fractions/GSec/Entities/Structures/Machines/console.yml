@@ -90,6 +90,10 @@
     account: GSecBank
   - type: AccessReader
     access: [["AccessGSecOfficer"], ["SyndicateOfficerTeleCommunication"]]
+  - type: AnCoFactionAccess
+    allowedFactions:
+    - FactionGSec
+    - FactionSyndicate
 
 - type: entity
   parent: ComputerShuttle

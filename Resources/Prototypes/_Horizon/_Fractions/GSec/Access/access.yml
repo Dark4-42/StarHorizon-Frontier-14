@@ -17,3 +17,12 @@
 - type: accessLevel
   id: AccessGSecOfficer
   name: id-card-access-level-gsec-officer
+
+- type: accessGroup
+  id: GSecAccess
+  tags:
+  - AccessGSec
+  - AccessGSecAgent
+  - AccessGSecTech
+  - AccessGSecMedic
+  - AccessGSecOfficer

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [AirlockGSec, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSec, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecLocked
   suffix: GSec, Locked
   components:
@@ -11,7 +11,7 @@
     prying: true
 
 - type: entity
-  parent: [AirlockGSecOfficer, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecOfficer, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecOfficerLocked
   suffix: GSec, Locked
   components:
@@ -20,7 +20,7 @@
       board: [ DoorElectronicsGSecOfficer ]
 
 - type: entity
-  parent: [AirlockGSecTech, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecTech, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecTechLocked
   suffix: GSec, Locked
   components:
@@ -29,7 +29,7 @@
       board: [ DoorElectronicsGSecTech ]
 
 - type: entity
-  parent: [AirlockGSecMedic, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecMedic, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecMedicLocked
   suffix: GSec, Locked
   components:
@@ -40,7 +40,7 @@
 # СТЕКЛЯННЫЕ
 
 - type: entity
-  parent: [AirlockGSecGlass, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecGlass, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecGlassLocked
   suffix: GSec, Locked
   components:
@@ -52,7 +52,7 @@
     prying: true
 
 - type: entity
-  parent: [AirlockGSecGlassOfficer, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecGlassOfficer, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecGlassOfficerLocked
   suffix: GSec, Locked
   components:
@@ -61,7 +61,7 @@
       board: [ DoorElectronicsGSecOfficer ]
 
 - type: entity
-  parent: [AirlockGSecGlassTech, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecGlassTech, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecGlassTechLocked
   suffix: GSec, Locked
   components:
@@ -70,7 +70,7 @@
       board: [ DoorElectronicsGSecTech ]
 
 - type: entity
-  parent: [AirlockGSecGlassMedic, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGSecGlassMedic, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockGSecGlassMedicLocked
   suffix: GSec, Locked
   components:
@@ -81,9 +81,10 @@
 # СТЫКОВОЧНЫЕ
 
 - type: entity
-  parent: [AirlockExternal, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockExternal, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockExternalGSecLocked
   description: Он открывается, он закрывается, он может раздавить вас, а за ним лишь космос.
+  name: внешний шлюз
   suffix: External, GSec, Locked
   components:
   - type: ContainerFill
@@ -93,9 +94,10 @@
     layoutId: AirlockSecurity
 
 - type: entity
-  parent: [AirlockExternalGlass, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockExternalGlass, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockExternalGlassGSecLocked
   description: Он открывается, он закрывается, он может раздавить вас, а за ним лишь космос.
+  name: внешний стеклянный шлюз
   suffix: External, Glass, GSec, Locked
   components:
   - type: ContainerFill
@@ -105,7 +107,7 @@
     layoutId: AirlockSecurity
 
 - type: entity
-  parent: [AirlockShuttleGSec, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockShuttleGSec, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockExternalShuttleGSecLocked
   suffix: External, Docking, GSec, Locked
   components:
@@ -114,7 +116,7 @@
       board: [ DoorElectronicsGSec ]
 
 - type: entity
-  parent: [AirlockGlassShuttleGSec, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag]
+  parent: [AirlockGlassShuttleGSec, BaseStructureAccessReaderImmuneToEmag]
   id: AirlockExternalGlassShuttleGSecLocked
   suffix: GSec, Locked, Glass
   components:

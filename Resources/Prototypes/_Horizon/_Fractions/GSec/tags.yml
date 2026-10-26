@@ -1,3 +1,19 @@
+
+- type: Tag
+  id: AccessGSec
+
+- type: Tag
+  id: AccessGSecAgent
+
+- type: Tag
+  id: AccessGSecTech
+
+- type: Tag
+  id: AccessGSecMedic
+
+- type: Tag
+  id: AccessGSecOfficer
+
 - type: Tag
   id: MagazineUniversalGSec
 

@@ -21,7 +21,7 @@
 
 - type: entity
   id: LockerGSecTech
-  parent: [LockerGSec, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
+  parent: [LockerGSec, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
   name: шкафчик техника Горлекс
   suffix: GSec, Locked
   components:
@@ -32,7 +32,7 @@
 
 - type: entity
   id: LockerGSecMedic
-  parent: [LockerGSec, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
+  parent: [LockerGSec, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
   name: шкафчик санитара Горлекс
   suffix: GSec, Locked
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: LockerGSecOfficer
-  parent: [LockerGSec, BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
+  parent: [LockerGSec, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
   name: шкафчик офицера Горлекс
   suffix: GSec, Locked
   components:

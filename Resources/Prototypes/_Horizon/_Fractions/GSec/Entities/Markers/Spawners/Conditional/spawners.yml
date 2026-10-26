@@ -11,4 +11,4 @@
       state: syndie_lethal
   - type: ConditionalSpawner
     prototypes:
-    - GSecWeaponTurretFill60
+    - GSecWeaponTurretFill30

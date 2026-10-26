@@ -849,7 +849,7 @@
   id: GSecNFWeaponRifleAssaultType71
   name: "Винтовка Type-71 (T2)"
   description: "Штурмовая винтовка, специально поставляемая в сектор для ДШНФ."
-  productEntity: NNFWeaponRifleAssaultType71
+  productEntity: NFWeaponRifleAssaultType71
   cost:
     Speso: 27300
   categories:

@@ -9,7 +9,7 @@
     sprite: _Horizon/_Fractions/GSec/Structures/Doors/Airlocks/Strandart/gsec.rsi
 
 - type: entity
-  parent: [AirlockGSec, BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband]
+  parent: [AirlockGSec, BaseGSecContraband]
   id: AirlockGSecOfficer
   name: шлюз командования Горлекс
   components:
@@ -46,7 +46,7 @@
     sprite: _Horizon/_Fractions/GSec/Structures/Doors/Airlocks/Glass/gsec.rsi
 
 - type: entity
-  parent: [AirlockGSecGlass, BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseGSecContraband] # see standard
+  parent: [AirlockGSecGlass, BaseGSecContraband] # see standard
   id: AirlockGSecGlassOfficer
   name: стеклянный шлюз командования Горлекс
   components:
