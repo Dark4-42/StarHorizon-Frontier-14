@@ -6,7 +6,7 @@
   suffix: GSec
   components:
   - type: Sprite
-    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medical/hypo.rsi
+    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medcial/hypo.rsi
     layers:
       - state: hypo
         map: ["enum.SolutionContainerLayers.Base"]
@@ -14,7 +14,7 @@
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: Item
-    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medical/hypo.rsi
+    sprite: _Horizon/_Fractions/GSec/Objects/Specific/Medcial/hypo.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:

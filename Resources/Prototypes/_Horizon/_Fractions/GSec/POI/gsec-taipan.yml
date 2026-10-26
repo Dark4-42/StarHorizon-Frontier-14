@@ -47,7 +47,7 @@
 - type: gameMap
   id: GSecTaipan
   mapName: "Оперативная база «Тайпан»"
-  mapPath: /Maps/_Horizon/POI/sindioupost.yml
+  mapPath: /Maps/_Horizon/_Fraction/GSec/POI/gsec-taipan.yml
   minPlayers: 0
   stations:
     SindiOutpost:
